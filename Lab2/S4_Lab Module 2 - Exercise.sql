@@ -1,0 +1,12 @@
+/*CREATE DATABASE CSE3023;*/
+USE CSE3023;
+
+/*CREATE TABLE products (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    category VARCHAR(100),
+    price DOUBLE,
+    quantity INT
+);*/
+
+SELECT * FROM products;
