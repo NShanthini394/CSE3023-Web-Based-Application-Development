@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Car Loan Calculation</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h2>Perform Car Loan Calculation</h2>
+        <form action="processCalculateCarLoan.jsp" method="post">
+            <fieldset>
+                <legend>Loan Calculation</legend>
+                <label>Loan Amount *</label>
+                <input type="number" name="loanAmount" placeholder="Amount" required><br><br>
+                
+                <label>Period</label>
+                <select name="loanPeriod">
+                    <option value="3">3 years</option>
+                    <option value="4">4 years</option>
+                    <option value="5">5 years</option>
+                    <option value="7">7 years</option>
+                </select><br><br>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </fieldset>
+        </form>
+        <p>&copy; 2026-Syaffiq</p>
+    </body>
+</html>
