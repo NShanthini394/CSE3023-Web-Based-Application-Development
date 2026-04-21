@@ -1,0 +1,86 @@
+/* Basic Settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    display: block;
+}
+
+/* Container to center everything */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Purple Heading Styling */
+h1, .form-title {
+    color: #6f42c1;
+    border-left: 5px solid #6f42c1;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+/* The Card Layout */
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Form Grouping */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Input Fields */
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-submit, .btn-back {
+    background-color: #6f42c1;
+    color: white;
+}
+
+.btn-submit:hover, .btn-back:hover {
+    background-color: #5a32a3;
+}
+
+/* Result Box Styling */
+.result-box {
+    background: #f9f9fb;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.result-box h3 {
+    color: #6f42c1;
+    border-bottom: 2px solid #6f42c1;
+    padding-bottom: 10px;
+}

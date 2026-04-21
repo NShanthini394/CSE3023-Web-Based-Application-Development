@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Discount System</title>
+        <meta charset="UTF-8">
+        <style>
+            /* Styling to match lab requirements*/
+            body { font-family: 'Segoe UI', sans-serif; background-color: #f4f7f6; padding: 20px; }
+            .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 500px; margin: auto; }
+            h2 { color: #6f42c1; }
+            input[type="text"], input[type="number"] { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h2>Customer Discount</h2>
+            <form action="processCustomer.jsp" method="POST">
+                <label>Customer Code</label>
+                <input type="text" name="customerCode" placeholder="Key-in customer code" required>
+                
+                <label>Quantity</label>
+                <input type="number" name="quantity" placeholder="Key-in quantity" required>
+                
+                <label>Customer Type</label><br>
+                <input type="radio" name="customerType" value="1" checked> Normal Customer
+                <input type="radio" name="customerType" value="2"> Privilege Customer
+                <br><br>
+                
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </form>
+        </div>
+    </body>
+</html>
